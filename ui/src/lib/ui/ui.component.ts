@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-ui',
+  selector: 'ui-test',
   imports: [CommonModule],
   templateUrl: './ui.component.html',
   styleUrl: './ui.component.css',
