@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { UiComponent } from '@fin-web/ui';
+import { HlmButtonDirective } from '@spartan-ng/ui-button-helm';
 
 @Component({
-  imports: [UiComponent, RouterModule],
+  imports: [RouterModule, HlmButtonDirective],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
