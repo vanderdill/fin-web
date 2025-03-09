@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { provideIcons } from '@ng-icons/core';
+import { NgIcon, provideIcons } from '@ng-icons/core';
 import {
   lucideCalendar,
   lucideCog,
@@ -47,6 +47,7 @@ import {
 @Component({
   imports: [
     RouterModule,
+    NgIcon,
     BrnProgressComponent,
     BrnProgressIndicatorComponent,
     HlmProgressIndicatorDirective,
