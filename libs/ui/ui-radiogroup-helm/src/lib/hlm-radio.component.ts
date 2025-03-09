@@ -12,7 +12,7 @@ import { ClassValue } from 'clsx';
 @Component({
   selector: 'hlm-radio',
   standalone: true,
-  imports: [BrnRadioComponent],
+  imports: [],
   template: `
 		<brn-radio
 			[id]="id()"
