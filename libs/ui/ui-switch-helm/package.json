@@ -2,8 +2,11 @@
   "name": "@spartan-ng/ui-switch-helm",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^19.2.0",
-    "@angular/core": "^19.2.0"
+    "@angular/core": "^19.2.0",
+    "@spartan-ng/brain": "^0.0.1-alpha.420",
+    "clsx": "^2.1.1",
+    "@angular/cdk": "^19.2.2",
+    "@angular/forms": "~19.2.0"
   },
   "sideEffects": false
 }

@@ -23,6 +23,7 @@ export default [
           ],
         },
       ],
+      'angular-eslint/no-input-rename': 'off',
     },
   },
   {
