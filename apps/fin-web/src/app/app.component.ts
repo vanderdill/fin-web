@@ -92,7 +92,7 @@ import {
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   host: {
-    class: 'preview flex min-h-[350px] w-full justify-center p-10 items-center',
+    class: 'flex justify-center flex-col items-center',
   },
 })
 export class AppComponent implements OnInit {

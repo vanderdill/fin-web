@@ -2,7 +2,7 @@
   "name": "fin-web",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "fin",
   "sourceRoot": "apps/fin-web/src",
   "tags": [],
   "targets": {
@@ -19,7 +19,8 @@
           {
             "glob": "**/*",
             "input": "apps/fin-web/public"
-          }
+          },
+          { "glob": "**/*", "input": "apps/fin-web/assets" }
         ],
         "styles": ["apps/fin-web/src/styles.css"],
         "scripts": []
