@@ -6,29 +6,29 @@ import {
   output,
 } from '@angular/core';
 import { hlm } from '@spartan-ng/brain/core';
-import { BrnRadioChange } from '@spartan-ng/brain/radio-group';
+import { BrnRadioChange, BrnRadioComponent } from '@spartan-ng/brain/radio-group';
 import { ClassValue } from 'clsx';
 
 @Component({
   selector: 'hlm-radio',
   standalone: true,
-  imports: [],
+  imports: [BrnRadioComponent],
   template: `
-		<brn-radio
-			[id]="id()"
-			[class]="_computedClass()"
-			[value]="value()"
-			[required]="required()"
-			[disabled]="disabled()"
-			[aria-label]="ariaLabel()"
-			[aria-labelledby]="ariaLabelledby()"
-			[aria-describedby]="ariaDescribedby()"
-			(change)="change.emit($event)"
-		>
-			<ng-content select="[target],[indicator]" indicator />
-			<ng-content />
-		</hlm-radio>
-	`,
+    <brn-radio
+      [id]="id()"
+      [class]="_computedClass()"
+      [value]="value()"
+      [required]="required()"
+      [disabled]="disabled()"
+      [aria-label]="ariaLabel()"
+      [aria-labelledby]="ariaLabelledby()"
+      [aria-describedby]="ariaDescribedby()"
+      (change)="change.emit($event)"
+    >
+      <ng-content select="[target],[indicator]" indicator />
+      <ng-content />
+    </brn-radio>
+  `,
 })
 export class HlmRadioComponent<T = unknown> {
   public readonly userClass = input<ClassValue>('', { alias: 'class' });
