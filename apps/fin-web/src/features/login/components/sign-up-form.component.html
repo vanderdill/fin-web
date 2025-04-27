@@ -1,0 +1,31 @@
+<form action="#" method="POST" class="space-y-4">
+
+  <div>
+    <label hlmLabel for="sign-up--div--name">Name
+      <input hlmInput type="text" id="sign-up--div--name" class="w-full" placeholder="Tell us how do you wanna be called">
+    </label>
+  </div>
+
+  <div>
+    <label hlmLabel for="sign-up--div--email">Email
+      <input hlmInput type="text" id="sign-up--div--email" class="w-full" placeholder="your@mail.com">
+    </label>
+  </div>
+
+  <div class="flex flex-col gap-3">
+    <div>
+      <label hlmLabel class="flex flex-col gap-2" for="sign-up--div--password">Password
+        <input hlmInput type="password" id="sign-up--div--password" class="w-full" placeholder="Password">
+        <input hlmInput type="password" id="sign-up--div--confirm-passowrd" class="w-full" placeholder="Confirm Password">
+      </label>
+    </div>
+
+
+  </div>
+
+  <div>
+    <button type="submit" hlmBtn size="lg" class="w-full" (click)="signUp()">
+      Create Account
+    </button>
+  </div>
+</form>
