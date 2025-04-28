@@ -1,0 +1,32 @@
+import { HlmDialogCloseDirective } from './lib/hlm-dialog-close.directive';
+import { HlmDialogContentComponent } from './lib/hlm-dialog-content.component';
+import { HlmDialogDescriptionDirective } from './lib/hlm-dialog-description.directive';
+import { HlmDialogFooterComponent } from './lib/hlm-dialog-footer.component';
+import { HlmDialogHeaderComponent } from './lib/hlm-dialog-header.component';
+import { HlmDialogOverlayDirective } from './lib/hlm-dialog-overlay.directive';
+import { HlmDialogTitleDirective } from './lib/hlm-dialog-title.directive';
+import { HlmDialogComponent } from './lib/hlm-dialog.component';
+import * as i0 from "@angular/core";
+import * as i1 from "./lib/hlm-dialog.component";
+import * as i2 from "./lib/hlm-dialog-close.directive";
+import * as i3 from "./lib/hlm-dialog-content.component";
+import * as i4 from "./lib/hlm-dialog-description.directive";
+import * as i5 from "./lib/hlm-dialog-footer.component";
+import * as i6 from "./lib/hlm-dialog-header.component";
+import * as i7 from "./lib/hlm-dialog-overlay.directive";
+import * as i8 from "./lib/hlm-dialog-title.directive";
+export * from './lib/hlm-dialog-close.directive';
+export * from './lib/hlm-dialog-content.component';
+export * from './lib/hlm-dialog-description.directive';
+export * from './lib/hlm-dialog-footer.component';
+export * from './lib/hlm-dialog-header.component';
+export * from './lib/hlm-dialog-overlay.directive';
+export * from './lib/hlm-dialog-title.directive';
+export * from './lib/hlm-dialog.component';
+export * from './lib/hlm-dialog.service';
+export declare const HlmDialogImports: readonly [typeof HlmDialogComponent, typeof HlmDialogCloseDirective, typeof HlmDialogContentComponent, typeof HlmDialogDescriptionDirective, typeof HlmDialogFooterComponent, typeof HlmDialogHeaderComponent, typeof HlmDialogOverlayDirective, typeof HlmDialogTitleDirective];
+export declare class HlmDialogModule {
+    static ɵfac: i0.ɵɵFactoryDeclaration<HlmDialogModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<HlmDialogModule, never, [typeof i1.HlmDialogComponent, typeof i2.HlmDialogCloseDirective, typeof i3.HlmDialogContentComponent, typeof i4.HlmDialogDescriptionDirective, typeof i5.HlmDialogFooterComponent, typeof i6.HlmDialogHeaderComponent, typeof i7.HlmDialogOverlayDirective, typeof i8.HlmDialogTitleDirective], [typeof i1.HlmDialogComponent, typeof i2.HlmDialogCloseDirective, typeof i3.HlmDialogContentComponent, typeof i4.HlmDialogDescriptionDirective, typeof i5.HlmDialogFooterComponent, typeof i6.HlmDialogHeaderComponent, typeof i7.HlmDialogOverlayDirective, typeof i8.HlmDialogTitleDirective]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<HlmDialogModule>;
+}
