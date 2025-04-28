@@ -27,6 +27,7 @@
       },
       "configurations": {
         "production": {
+          "baseHref": "/fin-web/",
           "budgets": [
             {
               "type": "initial",
