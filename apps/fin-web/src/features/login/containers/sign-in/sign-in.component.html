@@ -1,0 +1,25 @@
+<div class="flex h-screen">
+
+  <div class="hidden lg:flex pt-32 justify-center flex-1 bg-white text-black">
+    <div class="max-w-md text-center">
+      <img src="images/sign-in.webp" alt="Sign up image" class="mx-auto" />
+    </div>
+  </div>
+
+  <div class="w-full bg-gray-100 lg:w-1/2 flex pt-8 justify-center">
+    <div class="max-w-md w-full p-6 flex flex-col gap-8">
+      <div class="flex items-center justify-left">
+        <img src="images/logo_small.png" alt="Logo" class="size-16" />
+      </div>
+      <h1 hlmH1>Sign in</h1>
+      <h3 hlmH3>Create an account with all time access and free </h3>
+
+      <fin-sign-in-form />
+
+      <div class="mt-4 text-sm text-center">
+        <p hlmP>Don't have an account? <a href="#" [routerLink]="['/sign-up']">Sign up here</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

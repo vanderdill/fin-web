@@ -1,0 +1,20 @@
+<form action="#" method="POST" class="space-y-4">
+
+  <div>
+    <label hlmLabel for="sign-in--div--email">Email
+      <input hlmInput type="text" id="sign-in--div--email" class="w-full bg-white" placeholder="your@mail.com">
+    </label>
+  </div>
+
+  <div>
+    <label hlmLabel class="flex flex-col gap-2" for="sign-in--div--password">Password
+      <input hlmInput type="password" id="sign-in--div--password" class="w-full bg-white" placeholder="Password">
+    </label>
+  </div>
+
+  <div>
+    <button type="submit" hlmBtn size="lg" class="w-full" (click)="signIn()">
+      Sign in
+    </button>
+  </div>
+</form>

@@ -4,13 +4,20 @@ export const appRoutes: Route[] = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'login',
+    redirectTo: 'sign-up',
   },
   {
-    path: 'login',
+    path: 'sign-in',
     loadComponent: () =>
-      import('../features/login/containers/login.component').then(
-        (m) => m.LoginComponent
+      import('../features/login/containers/sign-in/sign-in.component').then(
+        (m) => m.SignInComponent
+      ),
+  },
+  {
+    path: 'sign-up',
+    loadComponent: () =>
+      import('../features/login/containers/sign-up/sign-up.component').then(
+        (m) => m.SignUpComponent
       ),
   },
 ];
