@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SignInComponent } from './sign-up.component';
+import { SignInComponent } from './sign-in.component';
+import { provideRouter } from '@angular/router';
+import { SignInFormComponent } from '../../components/sign-in-form/sign-in-form.component';
 
 describe('SignInComponent', () => {
   let component: SignInComponent;
@@ -7,7 +9,8 @@ describe('SignInComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SignInComponent],
+      imports: [SignInComponent, SignInFormComponent],
+      providers: [provideRouter([])],
     }).compileComponents();
 
     fixture = TestBed.createComponent(SignInComponent);
