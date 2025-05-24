@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-	standalone: true,
-	selector: 'hlm-command-shortcut',
-	template: '<ng-content />',
-	host: {
-		class: 'font-light ml-auto opacity-60 text-xs tracking-widest',
-	},
+  standalone: true,
+  selector: 'hlm-command-shortcut',
+  template: '<ng-content />',
+  host: {
+    class: 'font-light ml-auto opacity-60 text-xs tracking-widest',
+  },
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HlmCommandShortcutComponent {}

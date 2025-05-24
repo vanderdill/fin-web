@@ -38,15 +38,11 @@ export default [
           style: 'kebab-case',
         },
       ],
-      '@angular-eslint/no-input-rename': 'off',
     },
   },
   {
     files: ['**/*.html'],
     // Override or add rules here
-    rules: {
-      '@angular-eslint/template/click-events-have-key-events': 'off',
-      '@angular-eslint/template/interactive-supports-focus': 'off',
-    },
+    rules: {},
   },
 ];

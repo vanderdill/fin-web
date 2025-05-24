@@ -31,14 +31,13 @@ export default [
         },
       ],
       '@angular-eslint/component-selector': [
-        'warn',
+        'error',
         {
           type: 'element',
           prefix: 'hlm',
           style: 'kebab-case',
         },
       ],
-      '@angular-eslint/no-input-rename': 'off',
     },
   },
   {

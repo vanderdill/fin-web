@@ -2,10 +2,8 @@
   "name": "@spartan-ng/ui-button-helm",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/core": "^19.2.0",
-    "@spartan-ng/brain": "^0.0.1-alpha.420",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1"
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
   },
   "sideEffects": false
 }

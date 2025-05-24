@@ -2,12 +2,8 @@
   "name": "@spartan-ng/ui-command-helm",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/core": "^19.2.0",
-    "@spartan-ng/brain": "^0.0.1-alpha.420",
-    "@spartan-ng/ui-button-helm": "0.0.1",
-    "@spartan-ng/ui-icon-helm": "0.0.1",
-    "clsx": "^2.1.1",
-    "@angular/cdk": "^19.2.2"
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
   },
   "sideEffects": false
 }
