@@ -20,7 +20,10 @@
             "glob": "**/*",
             "input": "apps/fin-web/public"
           },
-          { "glob": "**/*", "input": "apps/fin-web/assets" }
+          {
+            "glob": "**/*",
+            "input": "apps/fin-web/assets"
+          }
         ],
         "styles": ["apps/fin-web/src/styles.css"],
         "scripts": []
@@ -60,7 +63,8 @@
           "buildTarget": "fin-web:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "continuous": true
     },
     "deploy": {
       "executor": "angular-cli-ghpages:deploy",
