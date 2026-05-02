@@ -1,10 +1,7 @@
+import { HlmH1, HlmH3, HlmP } from '@spartan-ng/helm/typography';
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {
-  HlmH1Directive,
-  HlmH3Directive,
-  HlmPDirective,
-} from '@spartan-ng/ui-typography-helm';
+
 import { RouterLink } from '@angular/router';
 import { SignInFormComponent } from '../../components/sign-in-form/sign-in-form.component';
 import { Store } from '@ngrx/store';
@@ -17,14 +14,7 @@ enum LoginState {
 
 @Component({
   selector: 'fin-sign-in',
-  imports: [
-    CommonModule,
-    RouterLink,
-    SignInFormComponent,
-    HlmH1Directive,
-    HlmH3Directive,
-    HlmPDirective,
-  ],
+  imports: [CommonModule, RouterLink, SignInFormComponent, HlmH1, HlmH3, HlmP],
   templateUrl: './sign-in.component.html',
 })
 export class SignInComponent implements OnInit {
